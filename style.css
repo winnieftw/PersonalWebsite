@@ -1,0 +1,223 @@
+html{
+    font-size: 14px;
+    /* font-family:'Uni Sans Demo', sans-serif; */
+    font-family: 'Mukta', sans-serif;
+    color: #80befb;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* margin: 1rem; */
+    /* color: #fff; */
+    /* background: rgb(95, 90, 90); */
+    background:rgb(32, 32, 32);
+    margin: 1rem;
+}
+
+#imageOfMe{
+    width: 15rem;
+    border-radius: 10%;
+    /* padding-left: 4rem;
+    padding-top: 2rem; */
+}
+
+.container{
+    padding: 3rem 10%;
+}
+
+/* Style the navigation menu */
+nav{
+    /* background: #ccc; */
+    /* padding: 2rem; */
+    
+    /* Setting up flex for navigation */
+    display: flex;
+    flex: 1;
+    flex-direction: row; /*is set to row by default.*/
+    align-items: flex-start; /* can be: flex-start, flex-end*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+/* Style the list inside the menu */
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1rem 2rem;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 2rem;
+    /* color: #fff; */
+    color: #80befb;
+    position: relative;
+}
+
+/* Simple hover animation set-up*/
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0rem;
+    bottom: -.2rem;  /* Distance between the bottom of word and line */
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+
+/* 
+    For section area
+*/
+section{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* padding: 2rem; */
+    font-size: 1.7rem;
+    color: white;
+}
+
+/* Short intro section*/
+
+.introHeading p{
+    color: white;
+    font-size: 2em;
+}
+
+
+.introHeading strong{
+    font-size: 3em;
+    color:#80befb
+
+}
+
+
+
+
+/*About me Section*/
+/* #aboutMeSection h1{
+    text-align: center;
+} */
+
+#aboutMeSection p{
+    /* border-style:groove; */
+    /* border-radius: 1rem; */
+    /* background-color: #6699cc; */
+    padding-left: 2rem;
+    font-size: 1em;
+}
+
+#skillsSection p{
+    padding-left: 2rem;
+}
+
+
+
+
+/*
+    Expecience Section
+*/
+#experienceInner{
+    padding-left: 2rem;
+}
+
+#experienceInner p a{
+    color: white;
+}
+
+#experienceInner p a:hover{
+    color: #80befb;
+}
+
+
+#experienceSection div p em{
+    font-size: 1.3rem;
+}
+
+#experienceInfo {
+    font-size: 1.5rem;
+}
+
+#timePeriod{
+    padding-left: 2rem;
+}
+
+
+
+/*
+    Projects Section
+*/
+#projectsContainer{
+    padding-left: 2rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+/*
+    Contact Info Section
+*/
+/* #contactSection{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem; 
+} */
+#contactSection img{
+    width: 10rem;
+}
+
+#icons{
+    text-align: center;
+    display: flex;
+    flex-flow: wrap;    /* When window resizes, wrap */
+    justify-content: space-evenly;
+    /* gap: 1rem; */
+}
+
+#icons a img:hover{
+    /* width: 15%; */
+    /* border-style:groove;
+    border-width: .5rem;
+    border-color: white;
+    border-radius: 12%; */
+    transform: scale(1.2);
+    transition-duration: .3s;
+
+}
+
+
+/*
+    Resume Section
+*/
+#resumePDF{
+    width: 80%;    
+    height: 700px;
+}
+
+#resumeContainer{
+    text-align: center;
+}
+
+#resumeFullBtn{
+    width: 10rem;
+    color: blue;
+}
+
+
+
+/*
+    Footer
+*/
+footer{
+    text-align: center;
+}

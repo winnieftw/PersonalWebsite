@@ -1,3 +1,5 @@
+/*Git test */
+
 html{
     font-size: 14px;
     /* font-family:'Uni Sans Demo', sans-serif; */
@@ -27,9 +29,6 @@ body{
 
 /* Style the navigation menu */
 nav{
-    /* background: #ccc; */
-    /* padding: 2rem; */
-    
     /* Setting up flex for navigation */
     display: flex;
     flex: 1;
@@ -130,16 +129,16 @@ section{
     padding-left: 2rem;
 }
 
-#experienceInner p a{
+#experienceInner a{
     color: white;
 }
 
-#experienceInner p a:hover{
+#experienceInner a:hover{
     color: #80befb;
 }
 
 
-#experienceSection div p em{
+#experienceSection div em{
     font-size: 1.3rem;
 }
 
@@ -200,7 +199,7 @@ section{
     Resume Section
 */
 #resumePDF{
-    width: 80%;    
+    width: 85%;    
     height: 700px;
 }
 

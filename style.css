@@ -39,23 +39,23 @@ h1{
 /* Scrolling Animation*/
 .sect{
     /*Fading Animation*/
-    opacity: 0;
-    transition: all 1.5s;
+    /* opacity: 0;
+    transition: all 1.5s; */
 
     /*Scroll from left animation*/
-    /* opacity: 0;
+    opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
-    transition: all 1s; */
+    transition: all 1s;
 }
 
 .show{
-    opacity: 1;
+    /* opacity: 1; */
 
     /*Scroll from left animation*/
-    /* opacity: 1;
+    opacity: 1;
     filter: blur(0);
-    transform: translateX(0); */
+    transform: translateX(0);
 }
 /* Logo Animation */
 

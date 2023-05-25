@@ -1,3 +1,4 @@
+/* Repeat animation each time in viewport*/
 const observer = new IntersectionObserver((element) => {
     element.forEach((entry) => {
         console.log(entry)
@@ -12,10 +13,12 @@ const observer = new IntersectionObserver((element) => {
     });
 });
 
-
 const sectionElements = document.querySelectorAll(".sect");
 const iconElements = document.querySelectorAll(".icon");
+const navElements = document.querySelectorAll(".introElements")
 
 sectionElements.forEach((ele) => observer.observe(ele));
 iconElements.forEach((ele) => observer.observe(ele));
+navElements.forEach((ele) => observer.observe(ele));
+
 

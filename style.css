@@ -63,7 +63,7 @@ h1{
 /* Logo Animation */
 .icon {
     opacity: 0;
-    filter: blur(1px);
+    filter: blur(10px);
     transform: translateX(-100%);
     transition: all 1s;
 }
@@ -75,6 +75,24 @@ h1{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+
+/* Introduction Animation */
+.introElements {
+    opacity: 0;
+    filter: blur(1px);
+    transform: translateY(-100%);
+    transition: all 1.5s;
+}
+
+.show{
+    /* opacity: 1; */
+
+    /*Scroll from left animation*/
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
 }
 
 

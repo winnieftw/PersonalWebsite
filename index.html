@@ -17,14 +17,14 @@
     <body>
         <div class="container">
             <nav>
-                <img src="selfPortrait.jpg" id="imageOfMe" alt="Winston">
+                <img src="selfPortrait.jpg" id="imageOfMe" alt="Winston" class="introElements">
                 <ul>
-                    <li><a href="#aboutMeSection" id="navLink">About Me</a></li>
-                    <li><a href="#skillsSection" id="skillsLink">Skills</a></li>
-                    <li><a href="#experienceSection">Experience</a></li>
-                    <li><a href="#projectsSection">Projects</a></li>
-                    <li><a href="#resumeSection">Resume</a></li>
-                    <li><a href="#contactSection">Contact</a></li>
+                    <li class="introElements"><a href="#aboutMeSection">About Me</a></li>
+                    <li class="introElements"><a href="#skillsSection">Skills</a></li>
+                    <li class="introElements"><a href="#experienceSection">Experience</a></li>
+                    <li class="introElements"><a href="#projectsSection">Projects</a></li>
+                    <li class="introElements"><a href="#resumeSection">Resume</a></li>
+                    <li class="introElements"><a href="#contactSection">Contact</a></li>
                 </ul>
 
                 <!-- <h1>howdy</h1> -->
@@ -33,8 +33,8 @@
 
             <!-- Short Hello Intro Section-->
             <div class="introHeading" id="intro">
-                <p>
-                    Hi my name is<br><strong>Winston Tan</strong>
+                <p class="introElements">
+                    Hi my name is<br><strong>Winston Nguyen Tan</strong>
                 </p>
             </div>
             
@@ -43,7 +43,7 @@
             <section id="#aboutMeSection" class="sect">
                 <h1><u>About Me</u></h1>
                 <p>
-                    Hi there! I am a currently a junior, pursuing a degree in Computer Science(CS) at the
+                    Hi there! I am a currently a junior, pursuing a degree in Computer Science (CS) at the
                     University of Maryland. I am involved in relevant extracurricular activities, projects and 
                     internships, that give me hands-on experience in software development and engineering. I'm constantly
                     on a lookout for new ways to challenge myself and grow both personally and professionally.
@@ -79,22 +79,22 @@
                 <h1><u>Experience</u></h1>
                 <div id="experienceInner">
                     <a href="https://acclaimtechnical.com/" target="_blank">
-                        Acclaim Technical Services(ATS)
+                        Acclaim Technical Services (ATS)
                     </a>
-                    <em> - Software Engineering/Extended Reality(AR/VR) Intern</em>
+                    <em> - Software Engineering/Extended Reality (AR/VR) Intern</em>
                     <br>
                     <div id="timePeriod">Summer 2022</div>
                     <ul id="experienceInfo">
                         <li>
-                            Ulitlized Python and RESTful API to help test and develop the backend(sever-side) of a government prototype. 
-                            Leveraged HTML to help develop and update the front-end(Webpage) of a the prototype.
+                            Ulitlized Python and RESTful API to help test and develop the backend (sever-side) of a government prototype. 
+                            Leveraged HTML to help develop and update the front-end (webpage) of a the prototype.
                         </li>
                         <li>
                             Used Postman to help employ RESTful API requests to update a GIS Cesium Map. This helped simulate military combat by
                             pinning locations of potential target and enemies.
                         </li>
                         <li>
-                            Developed 3D models via Blendor to allow a variety of viewing options in ingest into virtual reality(VR) worlds(i.e. Spatial) for 
+                            Developed 3D models via Blendor to allow a variety of viewing options in ingest into virtual reality (VR) worlds (i.e. Spatial) for 
                             meetings. 
                         </li>
                         <li>
@@ -137,11 +137,11 @@
                         <em>(Python, HTML, Numpy/Pandas, BeautifulSoup, Jupyter)</em>
                         <ul>
                             <li>
-                                Gathered and parsed(BeautifulSoup) over 9000 data points the top 50 teams from an NBA database. 
-                                The time range our team(group of 4) focused on were between 2010-2020.
+                                Gathered and parsed (BeautifulSoup) over 9000 data points the top 50 teams from an NBA database. 
+                                The time range our team (group of 4) focused on were between 2010-2020.
                             </li>
                             <li>
-                                Utilized Pandas and NumPy filter out certain category(i.e. FGP, W%, L%). Analyzed the statistics
+                                Utilized Pandas and NumPy filter out certain category (i.e. FGP, W%, L%). Analyzed the statistics
                                 to help bring a thorough analysis of a team's success.
                             </li>
                         </ul>
@@ -166,17 +166,47 @@
                         </ul>
                     </div>
                     <div>
+                        <strong><u>Regular Expression Engine</u></strong>
+                        <em>(Ocaml)</em>
+                        <ul>
+                            <li>
+                                Implemented algorithms for regular expression (regex), NFA (Non-Deterministic Finite Automaton),
+                                and DFA (Deterministic Finite Automaton).
+                            </li>
+                            <li>
+                                Converts regex to NFA, NFA to DFA, and vice-versa. 
+                            </li>
+                            <li>
+                                The algorithms determine whether a given string is accepted as a regex, NFA, and DFA.
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
                         <strong><u>Data Structures</u></strong>
                         <em>(Python)</em>
                         <ul>
                             <li>
                                 Implemented popular data structures such as
                                 Binary Search Trees, AVL Trees, Scapegoat Trees, AA/Red Black Trees,
-                                Bloom Filters, and Kth Nearest Neighbors(KNN).
+                                Bloom Filters, and Kth Nearest Neighbors (KNN).
                             </li>
                             <li>
                                 Many of the projects listed have implemented insert, delete, search, and
                                 miscellaneous methods.
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <strong><u>Shell Simulator</u></strong>
+                        <em>(C, Makefiles)</em>
+                        <ul>
+                            <li>
+                                Developed the guts of a shell that supports functionality of boolean operations, 
+                                pipes, file redirection, and logical functions such as AND or OR.
+                            </li>
+                            <li>
+                                Facilitates features of C such as pointers, input/output redirection, makefiles, 
+                                threads, and processes.
                             </li>
                         </ul>
                     </div>
@@ -189,7 +219,7 @@
             <section id="resumeSection" class="sect">
                 <h1><u>Resume</u></h1>
                 <div id="resumeContainer">
-                    <iframe id="resumePDF" src="winstonResume.pdf"></iframe>
+                    <iframe id="resumePDF" src="WinstonsResume.pdf"></iframe>
                 </div>
 
                 <!--Do the button for download-->

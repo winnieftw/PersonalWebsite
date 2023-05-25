@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <title>Winston Tan Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <script defer src="app.js"></script>
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet"> 
@@ -18,7 +20,7 @@
                 <img src="selfPortrait.jpg" id="imageOfMe" alt="Winston">
                 <ul>
                     <li><a href="#aboutMeSection" id="navLink">About Me</a></li>
-                    <li><a href="#skillsSection" id="skilsLink">Skills</a></li>
+                    <li><a href="#skillsSection" id="skillsLink">Skills</a></li>
                     <li><a href="#experienceSection">Experience</a></li>
                     <li><a href="#projectsSection">Projects</a></li>
                     <!-- <li><a href="winstonsResume2023.pdf" target="_blank">Resume</a></li> -->
@@ -31,7 +33,7 @@
 
 
             <!-- Short Hello Intro Section-->
-            <div class="introHeading">
+            <div class="introHeading" id="intro">
                 <p>
                     Hi my name is<br><strong>Winston Tan</strong>
                     <!-- <h1><span>Winston Tan</span><br>I'm a junior at UMD studying<br>Computer Science!</h1> -->
@@ -40,7 +42,7 @@
             
             
             <!-- About Me Section -->
-            <section id="aboutMeSection">
+            <section id="#aboutMeSection" class="sect">
                 <h1><u>About Me</u></h1>
                 <p>
                     Hi there! I am a currently a junior, pursuing a degree in Computer Science at the <br>
@@ -55,7 +57,7 @@
 
             
             <!-- Skills Section-->
-            <section id="skillsSection">
+            <section id="skillsSection" class="sect">
                 <h1><u>Skills</u></h1>
                 <p>
                     <strong>Languages</strong><br>       
@@ -75,7 +77,7 @@
             </section>
 
             <!-- Experience Section-->
-            <section id="experienceSection">
+            <section id="experienceSection" class="sect">
                 <h1><u>Experience</u></h1>
                 <div id="experienceInner">
                     <a href="https://acclaimtechnical.com/" target="_blank">
@@ -107,7 +109,7 @@
 
 
             <!--Project Section-->
-            <section id="projectsSection">
+            <section id="projectsSection" class="sect">
                 <h1><u>Projects</u></h1>
                 <div id="projectsContainer">
                     <div>
@@ -181,7 +183,7 @@
 
 
             <!--Resume-->
-            <section id="resumeSection">
+            <section id="resumeSection" class="sect">
                 <h1><u>Resume</u></h1>
                 <div id="resumeContainer">
                     <iframe id="resumePDF" src="winstonResume.pdf"></iframe>
@@ -196,17 +198,17 @@
 
 
             <!-- Contact Section-->
-            <section id="contactSection">
+            <section id="contactSection" class="sect">
                 <h1><u>Contact</u></h1>
-                <div id="icons">
+                <div class="icons">
                     <a href="https://www.linkedin.com/in/winstonntan/" target="_blank">
-                        <img src="icons8_linkedin.png" alt="LinkedIn" id="linkedinIcon">
+                        <img src="icons8_linkedin.png" alt="LinkedIn" class="icon">
                     </a>
                     <a href="https://github.com/winnieftw" target="_blank">
-                        <img src="icons8_github.png" alt="Github" class="githubIcon">
+                        <img src="icons8_github.png" alt="Github" class="icon">
                     </a>
                     <a href="mailto:tanwinston217@gmail.com">
-                        <img src="icons8_gmail.png" alt="Gmail" id="gmailIcon">
+                        <img src="icons8_gmail.png" alt="Gmail" class="icon">
                     </a>
                 </div>
             </section>
@@ -218,7 +220,9 @@
             <!--Footer-->
             <footer>
                 <br><br>
-                @ 2023 Winston Tan
+                <a href="#">
+                    @ 2023 Winston Tan
+                </a>
             </footer>
         </div>
     </body>

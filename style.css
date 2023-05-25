@@ -27,7 +27,47 @@ body{
     padding: 3rem 10%;
 }
 
-/* Style the navigation menu */
+h1{
+    color: #80befb;
+}
+
+/* 
+----------------------------
+    For Animations
+----------------------------
+*/
+/* Scrolling Animation*/
+.sect{
+    /*Fading Animation*/
+    opacity: 0;
+    transition: all 1s;
+
+    /*Scroll from left animation*/
+    /* opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s; */
+}
+
+.show{
+    opacity: 1;
+
+    /*Scroll from left animation*/
+    /* opacity: 1;
+    filter: blur(0);
+    transform: translateX(0); */
+}
+/* Logo Animation */
+
+
+
+
+
+/* 
+----------------------------
+    Style the navigation menu
+---------------------------- 
+*/
 nav{
     /* Setting up flex for navigation */
     display: flex;
@@ -75,7 +115,9 @@ nav ul li a:hover::after{
 
 
 /* 
-    For section area
+----------------------------
+    For section areas
+----------------------------
 */
 section{
     /* display: flex;
@@ -83,6 +125,10 @@ section{
     /* padding: 2rem; */
     font-size: 1.7rem;
     color: white;
+
+    display: grid;
+    /* place-items: center; */
+    align-content: center;
 }
 
 /* Short intro section*/
@@ -100,13 +146,7 @@ section{
 }
 
 
-
-
 /*About me Section*/
-/* #aboutMeSection h1{
-    text-align: center;
-} */
-
 #aboutMeSection p{
     /* border-style:groove; */
     /* border-radius: 1rem; */
@@ -118,8 +158,6 @@ section{
 #skillsSection p{
     padding-left: 2rem;
 }
-
-
 
 
 /*
@@ -151,7 +189,6 @@ section{
 }
 
 
-
 /*
     Projects Section
 */
@@ -161,29 +198,21 @@ section{
 }
 
 
-
-
 /*
     Contact Info Section
 */
-/* #contactSection{
-    display: flex;
-    flex-direction: column;
-    gap: 5rem; 
-} */
 #contactSection img{
     width: 10rem;
 }
 
-#icons{
-    text-align: center;
-    display: flex;
-    flex-flow: wrap;    /* When window resizes, wrap */
-    justify-content: space-evenly;
-    /* gap: 1rem; */
+.icons{
+    text-align: center;    
+}
+.icons a{
+    padding: 3rem;
 }
 
-#icons a img:hover{
+.icons a img:hover{
     /* width: 15%; */
     /* border-style:groove;
     border-width: .5rem;
@@ -215,8 +244,18 @@ section{
 
 
 /*
+----------------------------
     Footer
+----------------------------
 */
 footer{
     text-align: center;
+}
+
+footer a{
+    color:#80befb;
+}
+
+footer a:hover{
+    color: white;
 }

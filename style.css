@@ -40,7 +40,7 @@ h1{
 .sect{
     /*Fading Animation*/
     opacity: 0;
-    transition: all 1.5s;
+    transition: all 2s;
 
     /*Scroll from left animation*/
     /* opacity: 0;
@@ -123,13 +123,13 @@ section{
     /* display: flex;
     flex-wrap: wrap; */
     /* padding: 2rem; */
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: white;
 
     display: grid;
     /* place-items: center; */
     align-content: center;
-    padding-top : 5rem;
+    /* padding-top : 5rem; */
 }
 
 /* Short intro section*/
@@ -156,17 +156,26 @@ section{
     font-size: 1em;
 }
 
+
+/*
+    Skills Section
+*/
 #skillsSection p{
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
+    font-size: 1.5rem;
+}
+
+#skillsSection strong u{
+    font-size: 2rem;
 }
 
 
 /*
     Expecience Section
 */
-#experienceInner{
+/* #experienceInner{
     padding-left: 2rem;
-}
+} */
 
 #experienceInner a{
     color: white;
@@ -177,9 +186,9 @@ section{
 }
 
 
-#experienceSection div em{
+/* #experienceSection div em{
     font-size: 1.3rem;
-}
+} */
 
 #experienceInfo {
     font-size: 1.5rem;
@@ -194,7 +203,7 @@ section{
     Projects Section
 */
 #projectsContainer{
-    padding-left: 2rem;
+    /* padding-left: 2rem; */
     font-size: 1.5rem;
 }
 

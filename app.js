@@ -14,4 +14,8 @@ const observer = new IntersectionObserver((element) => {
 
 
 const sectionElements = document.querySelectorAll(".sect");
+const iconElements = document.querySelectorAll(".icon");
+
 sectionElements.forEach((ele) => observer.observe(ele));
+iconElements.forEach((ele) => observer.observe(ele));
+

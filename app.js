@@ -26,10 +26,13 @@ const observer2 = new IntersectionObserver((element) => {
 
 const sectionElements = document.querySelectorAll(".sect");
 const iconElements = document.querySelectorAll(".icon");
-const navElements = document.querySelectorAll(".introElements")
+const navElements = document.querySelectorAll(".introElements");
+const selfPortrait = document.querySelectorAll(".selfPortrait");
+
 
 sectionElements.forEach((ele) => observer1.observe(ele));
 iconElements.forEach((ele) => observer1.observe(ele));
 navElements.forEach((ele) => observer1.observe(ele));
+selfPortrait.forEach((ele) => observer1.observe(ele));
 
 

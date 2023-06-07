@@ -95,19 +95,6 @@ h1{
     transform: translateY(0);
 }
 
-/* Self-Portrait Animation */
-.selfPortrait{
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(50%);
-    transition: all 1s;
-}
-
-.show{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
 
 
 
@@ -121,7 +108,7 @@ nav{
     display: flex;
     flex: 1;
     flex-direction: row; /*is set to row by default.*/
-    align-items: flex-start; /* can be: flex-start, flex-end*/
+    align-items:center; /* can be: flex-start, flex-end*/
     justify-content: space-around;
     flex-wrap: wrap;
 }

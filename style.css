@@ -108,7 +108,7 @@ nav{
     display: flex;
     flex: 1;
     flex-direction: row; /*is set to row by default.*/
-    align-items: flex-start; /* can be: flex-start, flex-end*/
+    align-items:center; /* can be: flex-start, flex-end*/
     justify-content: space-around;
     flex-wrap: wrap;
 }

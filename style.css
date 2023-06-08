@@ -213,11 +213,13 @@ section{
 } */
 
 #experienceInner a{
-    color: white;
+    color: antiquewhite;
+    transition: font-size .3s ease-in-out;
 }
 
 #experienceInner a:hover{
     color: #80befb;
+    font-size: 1.2em;
 }
 
 
@@ -249,6 +251,7 @@ section{
 
 #projectsContainer div a strong u:hover{
     /* transition-duration: .3s; */
+    color: #80befb;
     font-size: 1.2em;
 }
 

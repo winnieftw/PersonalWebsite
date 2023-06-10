@@ -60,7 +60,9 @@ h1{
 
 
 
-/* Logo Animation */
+/* 
+    Logo Animation 
+*/
 .icon {
     opacity: 0;
     filter: blur(2px);
@@ -155,40 +157,45 @@ nav ul li a:hover::after{
 ----------------------------
 */
 section{
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* padding: 2rem; */
     font-size: 2rem;
     color: white;
 
     display: grid;
-    /* place-items: center; */
     align-content: center;
-    /* padding-top : 5rem; */
 }
 
 /* Short intro section*/
-
 .introHeading p{
     color: white;
     font-size: 2em;
 }
-
-
 .introHeading strong{
     font-size: 3em;
     color:#80befb
 
 }
 
+/* Project Cards */
+#projectsContainer div{
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 30px;
+    box-shadow: 2px 1px 4px gray, 1px 4px 5px rgb(20, 20, 20);
+    transition: all .5s ease;
+}
 
-/*About me Section*/
+
+#projectsContainer div:hover{
+    transform: translate3D(0,-1px,0) scale(1.02); 
+    box-shadow: 2px 1px 1px #80befb, 1px 12px 3px rgb(20, 20, 20);
+    transition: all .4s ease; /* zoom in */
+}
+
+/*
+    About me Section
+*/
 #aboutMeSection p{
-    /* border-style:groove; */
-    /* border-radius: 1rem; */
-    /* background-color: #6699cc; */
-    padding-left: 2rem;
-    font-size: 1em;
+    font-size: 1.5rem;
 }
 
 
@@ -260,6 +267,24 @@ section{
 }
 
 /*
+    Resume Section
+*/
+#resumePDF{
+    width: 85%;    
+    height: 700px;
+}
+
+#resumeContainer{
+    text-align: center;
+}
+
+#resumeFullBtn{
+    width: 10rem;
+    color: blue;
+}
+
+
+/*
     Contact Info Section
 */
 #contactSection img{
@@ -282,24 +307,6 @@ section{
     transform: scale(1.2);
     transition-duration: .3s;
 
-}
-
-
-/*
-    Resume Section
-*/
-#resumePDF{
-    width: 85%;    
-    height: 700px;
-}
-
-#resumeContainer{
-    text-align: center;
-}
-
-#resumeFullBtn{
-    width: 10rem;
-    color: blue;
 }
 
 

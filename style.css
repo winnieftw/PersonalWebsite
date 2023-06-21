@@ -15,12 +15,14 @@ body{
     background:rgb(32, 32, 32);
     margin: 1rem;
     background-image: url(colorkit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 #imageOfMe{
     width: 20rem;
-    border-radius: 10%;
+    border-radius: 20%;
     /* padding-left: 4rem;
     padding-top: 2rem; */
 }
@@ -251,6 +253,8 @@ section{
 #projectsContainer{
     /* padding-left: 2rem; */
     font-size: 1.5rem;
+    display: block;
+    margin: 0 auto;
 }
 
 #projectsContainer div a strong u{
@@ -280,8 +284,9 @@ video {
     Resume Section
 */
 #resumePDF{
-    width: 85%;    
-    height: 700px;
+    width: 85%;
+    /* height: 700px; */
+    height: 25em;
 }
 
 #resumeContainer{

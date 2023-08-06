@@ -255,6 +255,7 @@ section{
     font-size: 1.5rem;
     display: block;
     margin: 0 auto;
+    max-width: 70em;
 }
 
 #projectsContainer div a strong u{
@@ -277,6 +278,7 @@ video {
     display: block;
     margin: 0 auto;
 
+    width:70%;
     border-radius: 20px;
 }
 

@@ -196,6 +196,27 @@ section{
 }
 
 /*
+    Refactoring for cards
+*/
+#cardRefactor{
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 30px;
+    box-shadow: 2px 1px 4px gray, 1px 4px 5px rgb(20, 20, 20);
+    transition: all .5s ease;   
+}
+
+#cardRefactor:hover{
+    transform: translate3D(0,-1px,0) scale(1.02); 
+    box-shadow: 2px 1px 1px #80befb, 1px 12px 3px rgb(20, 20, 20);
+    transition: all .4s ease; /* zoom in */
+}
+
+
+
+
+
+/*
     About me Section
 */
 #aboutMeSection p{

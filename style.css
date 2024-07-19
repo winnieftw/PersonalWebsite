@@ -245,15 +245,6 @@ section{
 } */
 
 /* Coloring of the clickable links */
-/* #experienceInner a{
-    color: antiquewhite;
-    transition: font-size .3s ease-in-out;
-}
-
-#experienceInner a:hover{
-    color: #80befb;
-    font-size: 1.2em;
-} */
 .linkStyling{
     color: antiquewhite;
     transition: font-size .3s ease-in-out;

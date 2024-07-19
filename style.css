@@ -88,7 +88,7 @@ h1{
 .introElements {
     opacity: 0;
     filter: blur(1px);
-    transform: translateY(-50%);
+    transform: translateY(50%);
     transition: all 1s;
 }
 
@@ -271,6 +271,11 @@ section{
 /*
     Projects Section
 */
+#projectsSection{
+    font-size: 1.5rem;
+
+}
+
 #projectsContainer{
     /* padding-left: 2rem; */
     font-size: 1.5rem;

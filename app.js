@@ -30,15 +30,15 @@ const navElements = document.querySelectorAll(".introElements");
 const selfPortrait = document.querySelectorAll(".selfPortrait");
 
 // For observer1
-// sectionElements.forEach((ele) => observer1.observe(ele));
-// iconElements.forEach((ele) => observer1.observe(ele));
-// navElements.forEach((ele) => observer1.observe(ele));
-// selfPortrait.forEach((ele) => observer1.observe(ele));
+sectionElements.forEach((ele) => observer1.observe(ele));
+iconElements.forEach((ele) => observer1.observe(ele));
+navElements.forEach((ele) => observer1.observe(ele));
+selfPortrait.forEach((ele) => observer1.observe(ele));
 
 // For observer2
 
-sectionElements.forEach((ele) => observer2.observe(ele));
-iconElements.forEach((ele) => observer2.observe(ele));
-navElements.forEach((ele) => observer2.observe(ele));
-selfPortrait.forEach((ele) => observer2.observe(ele));
+// sectionElements.forEach((ele) => observer2.observe(ele));
+// iconElements.forEach((ele) => observer2.observe(ele));
+// navElements.forEach((ele) => observer2.observe(ele));
+// selfPortrait.forEach((ele) => observer2.observe(ele));
 
